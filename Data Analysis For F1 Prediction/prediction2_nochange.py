@@ -60,7 +60,7 @@ predicted_lap_times = model.predict(qualifying_2025[["QualifyingTime (s)"]])
 qualifying_2025["PredictedRaceTime (s)"] = predicted_lap_times
 
 # Rank drivers by predicted race time
-qualifying_2025 = qualifying_2025.sort_values(by="PredictedRaceTime (s)")
+qualifying_2025 = qualifyying_2025.sort_values(by="PredictedRaceTime (s)")
 
 # Print final predictions
 print("\n🏁 Predicted 2025 Chinese GP Winner with no Change in ML Model🏁\n")
