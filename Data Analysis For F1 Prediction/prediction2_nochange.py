@@ -50,7 +50,7 @@ y = merged_data["LapTime (s)"]
 if X.shape[0] == 0:
     raise ValueError("Dataset is empty after preprocessing. Check data sources!")
 
-# Train Gradient Boosting Model
+# Train a Gradient Boosting Model
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=39)
 model = GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, random_state=39)
 model.fit(X_train, y_train)
