@@ -68,5 +68,5 @@ print("\n🏁 Predicted 2025 Chinese GP Winner (Just the Old Drivers, No New Dri
 print(qualifying_2025[["Driver", "PredictedRaceTime (s)"]])
 
 # Evaluate Model
-y_pred = model.predict(X_test)
+y_pred = model.predict(X_test) 
 print(f"\n🔍 Model Error (MAE): {mean_absolute_error(y_test, y_pred):.2f} seconds")
