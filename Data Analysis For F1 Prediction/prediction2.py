@@ -29,10 +29,10 @@ qualifying_2025 = pd.DataFrame({
                "Charles Leclerc", "Isack Hadjar", "Andrea Kimi Antonelli", "Yuki Tsunoda", "Alexander Albon",
                "Esteban Ocon", "Nico Hülkenberg", "Fernando Alonso", "Lance Stroll", "Carlos Sainz Jr.",
                "Pierre Gasly", "Oliver Bearman", "Jack Doohan", "Gabriel Bortoleto", "Liam Lawson"],
-    "QualifyingTime (s)": [90.641, 90.723, 90.793, 90.817, 90.927,
+    "QualifyingTime (s)": [90.641, 90.723, 90.793, 90.677, 90.927,
                            91.021, 91.079, 91.103, 91.638, 91.706,
                            91.625, 91.632, 91.688, 91.773, 91.840,
-                           91.992, 92.018, 92.092, 92.141, 92.174]
+                           91.92, 92.018, 92.092, 92.141, 92.174]
 })
 
 # Map full names to FastF1 3-letter codes
