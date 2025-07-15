@@ -63,7 +63,7 @@ qualifying_2025["PredictedRaceTime (s)"] = predicted_race_times
 # Rank drivers by predicted race time
 qualifying_2025 = qualifying_2025.sort_values(by="PredictedRaceTime (s)")
 
-# Print final predictions
+# Print the final predictions
 print("\n🏁 Predicted 2025 Chinese GP Winner (Just the Old Drivers, No New Drivers)🏁\n")
 print(qualifying_2025[["Driver", "PredictedRaceTime (s)"]])
 
