@@ -12,7 +12,7 @@ fastf1.Cache.enable_cache("f1_cache")
 session_2024 = fastf1.get_session(2024, "China", "R")
 session_2024.load()
 
-# Extract lap and sector times
+# Extract lap and sector times 
 laps_2024 = session_2024.laps[["Driver", "LapTime", "Sector1Time", "Sector2Time", "Sector3Time"]].copy()
 laps_2024.dropna(inplace=True)
 
