@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error
 # Enable FastF1 caching
 fastf1.Cache.enable_cache("f1_cache")
 
-# Load FastF1 2024 Australian GP race session
+# Load FastF1 2024 Australian GP race session 
 session_2024 = fastf1.get_session(2024, "China", "R")
 session_2024.load()
 
